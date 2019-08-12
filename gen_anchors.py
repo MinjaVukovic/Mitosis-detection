@@ -97,6 +97,8 @@ def _main_(argv):
         config['train']['cache_name'],
         config['model']['labels']
     )
+    print(train_imgs)
+    print(train_labels)
 
     # run k_mean to find the anchors
     annotation_dims = []

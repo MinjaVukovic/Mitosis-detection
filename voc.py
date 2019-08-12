@@ -11,8 +11,9 @@ def parse_voc_annotation(ann_dir, img_dir, cache_name, labels=[]):
     else:
         all_insts = []
         seen_labels = {}
-        
+        print(os.listdir(ann_dir))
         for ann in sorted(os.listdir(ann_dir)):
+            print(ann)
             img = {'object':[]}
 
             try:

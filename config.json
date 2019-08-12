@@ -3,13 +3,13 @@
         "min_input_size":       288,
         "max_input_size":       448,
         "anchors":              [55,69, 75,234, 133,240, 136,129, 142,363, 203,290, 228,184, 285,359, 341,260],
-        "labels":               ["kangaroo"]
+        "labels":               ["1.0","0.8","0.65","0.2","0.0"]
     },
 
     "train": {
-        "train_image_folder":   "/home/andy/Desktop/github/kangaroo/images/",
-        "train_annot_folder":   "/home/andy/Desktop/github/kangaroo/annots/",
-        "cache_name":           "kangaroo_train.pkl",
+        "train_image_folder":   "C:/Users/Minja/Desktop/DATASET/A03/mitosis/",
+        "train_annot_folder":   "C:/Users/Minja/Desktop/DATASET/A03/mitosis/",
+        "cache_name":           "mitosis_train.pkl",
 
         "train_times":          8,
         "batch_size":           16,
@@ -26,7 +26,7 @@
         "class_scale":          1,
 
         "tensorboard_dir":      "logs",
-        "saved_weights_name":   "kangaroo.h5",
+        "saved_weights_name":   "minja.h5",
         "debug":                true
     },
 
